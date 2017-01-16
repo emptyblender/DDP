@@ -16,8 +16,8 @@ shinyUI(fluidPage(
   
   sidebarLayout(
     sidebarPanel(
-       sliderInput("sliderCement","How many kg of cement?",100,550,value=300)
-       
+      numericInput("sliderCement","How many kg of cement?", value=300, min=100,max=550,step=1) 
+
        
     ),
     

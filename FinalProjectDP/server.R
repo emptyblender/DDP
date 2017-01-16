@@ -8,6 +8,8 @@
 #
 
 library(shiny)
+library(AppliedPredictiveModeling)
+data(concrete)
 
 shinyServer(function(input, output) {
    
